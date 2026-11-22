@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Apex Detailing: considered valets, interior restoration, ceramic coating and paint correction. Demo website.">
+  <title>Apex Detailing | Demo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" data-header>
+    <div class="container site-header__bar">
+      <a class="brand" href="#top" aria-label="Apex Detailing, back to top">Apex <span class="brand__sub">Detailing</span></a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary" data-nav>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#results">Results</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a class="site-nav__cta" href="#booking">Request a booking</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true"></div>
+
+      <!-- VIDEO SLOT: replace the placeholder inside this frame with
+           <video autoplay muted loop playsinline poster="poster.jpg"><source src="hero.mp4" type="video/mp4"></video>
+           The stylesheet already sizes a <video> here to fill the frame. -->
+      <div class="hero__frame" aria-hidden="true">
+        <span class="hero__frame-label">Video placeholder · replace with 16:9 hero reel</span>
+      </div>
+
+      <div class="container hero__content">
+        <p class="eyebrow">Apex Detailing · Pretoria &amp; Midrand</p>
+        <h1 class="hero__title" id="hero-title">A considered finish for <em>cars that matter.</em></h1>
+        <div class="hero__foot">
+          <p class="hero__lead">Valets, interior restoration, ceramic protection and paint correction, carried out slowly and checked under proper light.</p>
+          <div class="hero__actions">
+            <a class="btn btn--solid" href="#services">Explore services</a>
+            <a class="link-arrow" href="#booking">Request a booking</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATEMENT ============ -->
+    <section class="statement" aria-label="Philosophy">
+      <div class="container statement__grid reveal">
+        <p class="eyebrow statement__label">Philosophy</p>
+        <p class="statement__text">Detailing is the discipline of noticing: the swirl in the light, the grain of the leather, the dust in a seam. <em>We attend to what most people miss.</em></p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container split">
+        <header class="split__head reveal">
+          <p class="eyebrow"><span class="eyebrow__num">01</span>Services</p>
+          <h2 class="display" id="services-title">What we <em>do</em></h2>
+          <p class="note">Descriptions are demo copy. The listed prices are the only fixed prices in this demo.</p>
+        </header>
+
+        <ul class="services" role="list">
+          <li class="service is-open reveal">
+            <h3 class="service__title">
+              <button class="service__head" type="button" aria-expanded="true" aria-controls="svc-1" data-service-toggle>
+                <span class="service__num">01</span>
+                <span class="service__name">Full Valet</span>
+                <span class="service__price">R450</span>
+                <span class="service__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="service__panel" id="svc-1">
+              <div class="service__inner">
+                <div class="placeholder placeholder--tone-1 service__media" role="img" aria-label="Image placeholder for Full Valet"><span class="placeholder__label">Image placeholder</span></div>
+                <div class="service__text">
+                  <p>A thorough inside-and-out clean that returns the car to a fresh, composed baseline.</p>
+                  <ul class="detail-list">
+                    <li>Exterior hand wash and dry</li>
+                    <li>Interior vacuum and wipe-down</li>
+                    <li>Windows cleaned inside and out</li>
+                    <li>Tyres dressed</li>
+                  </ul>
+                  <a class="link-arrow" href="#booking" data-book="Full Valet">Book this service</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="service reveal">
+            <h3 class="service__title">
+              <button class="service__head" type="button" aria-expanded="false" aria-controls="svc-2" data-service-toggle>
+                <span class="service__num">02</span>
+                <span class="service__name">Interior Deep Clean</span>
+                <span class="service__price">R650</span>
+                <span class="service__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="service__panel" id="svc-2">
+              <div class="service__inner">
+                <div class="placeholder placeholder--tone-2 service__media" role="img" aria-label="Image placeholder for Interior Deep Clean"><span class="placeholder__label">Image placeholder</span></div>
+                <div class="service__text">
+                  <p>Seats, carpets and panels cleaned properly, not simply wiped over.</p>
+                  <ul class="detail-list">
+                    <li>Seat and carpet shampoo or extraction</li>
+                    <li>Dashboard and door-card detailing</li>
+                    <li>Vents, cup holders and crevices</li>
+                    <li>Odour refresh</li>
+                  </ul>
+                  <a class="link-arrow" href="#booking" data-book="Interior Deep Clean">Book this service</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="service reveal">
+            <h3 class="service__title">
+              <button class="service__head" type="button" aria-expanded="false" aria-controls="svc-3" data-service-toggle>
+                <span class="service__num">03</span>
+                <span class="service__name">Ceramic Coating</span>
+                <span class="service__price">From R3,500</span>
+                <span class="service__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="service__panel" id="svc-3">
+              <div class="service__inner">
+                <div class="placeholder placeholder--tone-3 service__media" role="img" aria-label="Image placeholder for Ceramic Coating"><span class="placeholder__label">Image placeholder</span></div>
+                <div class="service__text">
+                  <p>Lasting depth and protection that makes the car easier to keep clean.</p>
+                  <ul class="detail-list">
+                    <li>Surface decontamination before coating</li>
+                    <li>Coating applied panel by panel</li>
+                    <li>Final inspection under lights</li>
+                    <li>Aftercare guidance</li>
+                  </ul>
+                  <a class="link-arrow" href="#booking" data-book="Ceramic Coating">Book this service</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="service reveal">
+            <h3 class="service__title">
+              <button class="service__head" type="button" aria-expanded="false" aria-controls="svc-4" data-service-toggle>
+                <span class="service__num">04</span>
+                <span class="service__name">Paint Correction</span>
+                <span class="service__price">Quote after inspection</span>
+                <span class="service__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="service__panel" id="svc-4">
+              <div class="service__inner">
+                <div class="placeholder placeholder--tone-4 service__media" role="img" aria-label="Image placeholder for Paint Correction"><span class="placeholder__label">Image placeholder</span></div>
+                <div class="service__text">
+                  <p>Swirls and light scratches polished out so the paint reflects properly again.</p>
+                  <ul class="detail-list">
+                    <li>Paint assessed before any work begins</li>
+                    <li>Machine polishing in stages</li>
+                    <li>Pricing depends on condition and size</li>
+                  </ul>
+                  <a class="link-arrow" href="#booking" data-book="Paint Correction">Request a quote</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section section--walnut" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__num">02</span>Gallery</p>
+            <h2 class="display" id="gallery-title">Selected <em>work</em></h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filter gallery">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter" type="button" data-filter="exterior" aria-pressed="false">Exterior</button>
+            <button class="filter" type="button" data-filter="interior" aria-pressed="false">Interior</button>
+            <button class="filter" type="button" data-filter="coating" aria-pressed="false">Coating</button>
+          </div>
+        </header>
+
+        <div class="gallery reveal" data-gallery>
+          <button class="gallery__item gallery__item--lg" type="button" data-category="exterior" data-tone="1" data-title="Exterior · 01"><span class="placeholder placeholder--tone-1"><span class="placeholder__label">Exterior · 01</span></span></button>
+          <button class="gallery__item gallery__item--md" type="button" data-category="interior" data-tone="2" data-title="Interior · 02"><span class="placeholder placeholder--tone-2"><span class="placeholder__label">Interior · 02</span></span></button>
+          <button class="gallery__item gallery__item--md" type="button" data-category="coating" data-tone="3" data-title="Coating · 03"><span class="placeholder placeholder--tone-3"><span class="placeholder__label">Coating · 03</span></span></button>
+          <button class="gallery__item gallery__item--md" type="button" data-category="exterior" data-tone="4" data-title="Exterior · 04"><span class="placeholder placeholder--tone-4"><span class="placeholder__label">Exterior · 04</span></span></button>
+          <button class="gallery__item gallery__item--lg" type="button" data-category="interior" data-tone="1" data-title="Interior · 05"><span class="placeholder placeholder--tone-1"><span class="placeholder__label">Interior · 05</span></span></button>
+          <button class="gallery__item gallery__item--md" type="button" data-category="coating" data-tone="2" data-title="Coating · 06"><span class="placeholder placeholder--tone-2"><span class="placeholder__label">Coating · 06</span></span></button>
+          <button class="gallery__item gallery__item--third" type="button" data-category="exterior" data-tone="3" data-title="Exterior · 07"><span class="placeholder placeholder--tone-3"><span class="placeholder__label">Exterior · 07</span></span></button>
+          <button class="gallery__item gallery__item--third" type="button" data-category="interior" data-tone="4" data-title="Interior · 08"><span class="placeholder placeholder--tone-4"><span class="placeholder__label">Interior · 08</span></span></button>
+          <button class="gallery__item gallery__item--third" type="button" data-category="coating" data-tone="1" data-title="Coating · 09"><span class="placeholder placeholder--tone-1"><span class="placeholder__label">Coating · 09</span></span></button>
+        </div>
+      </div>
+    </section>
+
+    <dialog class="lightbox" aria-label="Gallery viewer" data-lightbox>
+      <button class="lightbox__close" type="button" aria-label="Close viewer" data-lb-close>Close</button>
+      <button class="lightbox__nav" type="button" aria-label="Previous image" data-lb-prev>&#8249;</button>
+      <figure class="lightbox__figure">
+        <div class="placeholder placeholder--tone-1" data-lb-art><span class="placeholder__label">Replace with photo</span></div>
+        <figcaption class="lightbox__caption"><span data-lb-caption></span><span data-lb-count></span></figcaption>
+      </figure>
+      <button class="lightbox__nav" type="button" aria-label="Next image" data-lb-next>&#8250;</button>
+    </dialog>
+
+    <!-- ============ BEFORE / AFTER ============ -->
+    <section class="section" id="results" aria-labelledby="results-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__num">03</span>Results</p>
+            <h2 class="display" id="results-title">Before <em>&amp;</em> after</h2>
+          </div>
+          <p class="note">Drag the handle, or focus it and use the arrow keys. Placeholder panels stand in for real photographs.</p>
+        </header>
+
+        <div class="compare reveal" data-compare>
+          <div class="compare__layer compare__layer--after"><span class="compare__tag compare__tag--after">After</span><span class="compare__note">Replace with after photo</span></div>
+          <div class="compare__layer compare__layer--before"><span class="compare__tag">Before</span><span class="compare__note">Replace with before photo</span></div>
+          <div class="compare__handle" role="slider" tabindex="0" aria-label="Before and after comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-compare-handle><span aria-hidden="true"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section section--walnut" id="booking" aria-labelledby="booking-title">
+      <div class="container split">
+        <header class="split__head reveal">
+          <p class="eyebrow"><span class="eyebrow__num">04</span>Booking</p>
+          <h2 class="display" id="booking-title">Request a <em>booking</em></h2>
+          <p class="note">Complete the form and it prepares a WhatsApp message for you to send. Nothing is booked until the business replies and confirms with you.</p>
+          <p class="note note--demo">Demo notice: the form uses a placeholder number (+27 00 000 0000). Set <code>WHATSAPP_NUMBER</code> at the top of <code>script.js</code>.</p>
+        </header>
+
+        <form class="form reveal" id="booking-form" novalidate data-form>
+          <div class="field">
+            <label for="f-name">Name *</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="error-name">
+            <span class="field__error" id="error-name" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="f-phone">Contact number *</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" required aria-describedby="error-phone">
+            <span class="field__error" id="error-phone" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="f-vehicle">Vehicle make and model *</label>
+            <input id="f-vehicle" name="vehicle" type="text" placeholder="e.g. Audi RS3" required aria-describedby="error-vehicle">
+            <span class="field__error" id="error-vehicle" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="f-service">Service *</label>
+            <select id="f-service" name="service" required aria-describedby="error-service">
+              <option value="">Select a service</option>
+              <option>Full Valet</option>
+              <option>Interior Deep Clean</option>
+              <option>Ceramic Coating</option>
+              <option>Paint Correction</option>
+            </select>
+            <span class="field__error" id="error-service" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label for="f-date">Preferred date *</label>
+            <input id="f-date" name="date" type="date" required aria-describedby="error-date">
+            <span class="field__error" id="error-date" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label for="f-notes">Additional information</label>
+            <textarea id="f-notes" name="notes" rows="3" placeholder="Colour, condition, anything we should know"></textarea>
+          </div>
+          <div class="field field--full">
+            <button class="btn btn--solid" type="submit">Prepare WhatsApp message</button>
+          </div>
+          <div class="form__result field--full" role="status" hidden data-form-result>
+            <p>Your message is ready. Opening WhatsApp pre-fills it, and you still need to press send. This is a request, not a confirmed booking.</p>
+            <a class="link-arrow" target="_blank" rel="noopener" data-wa-send>Open WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container split">
+        <header class="split__head reveal">
+          <p class="eyebrow"><span class="eyebrow__num">05</span>Reviews</p>
+          <h2 class="display" id="testimonials-title">In their <em>words</em></h2>
+        </header>
+
+        <div class="reviews reveal" data-reviews>
+          <div class="review">
+            <p class="demo-tag">Demo content</p>
+            <blockquote class="review__quote">&ldquo;Placeholder review: the car looked better than the day I collected it.&rdquo;</blockquote>
+            <p class="review__cite">Sample customer A · Pretoria</p>
+          </div>
+          <div class="review" hidden>
+            <p class="demo-tag">Demo content</p>
+            <blockquote class="review__quote">&ldquo;Placeholder review: easy to book, on time, and careful with the details.&rdquo;</blockquote>
+            <p class="review__cite">Sample customer B · Centurion</p>
+          </div>
+          <div class="review" hidden>
+            <p class="demo-tag">Demo content</p>
+            <blockquote class="review__quote">&ldquo;Placeholder review: the interior feels new again.&rdquo;</blockquote>
+            <p class="review__cite">Sample customer C · Midrand</p>
+          </div>
+
+          <div class="reviews__controls">
+            <button class="text-btn" type="button" data-review-prev>Previous</button>
+            <span class="reviews__count" aria-live="polite" data-review-count>01 / 03</span>
+            <button class="text-btn" type="button" data-review-next>Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section--walnut" id="faq" aria-labelledby="faq-title">
+      <div class="container split">
+        <header class="split__head reveal">
+          <p class="eyebrow"><span class="eyebrow__num">06</span>FAQ</p>
+          <h2 class="display" id="faq-title">Good <em>questions</em></h2>
+        </header>
+
+        <div class="faq reveal" data-faq>
+          <details>
+            <summary>How long does a service take?</summary>
+            <p>Demo answer: timing depends on the service and the condition of the vehicle. Replace this with the business's real times.</p>
+          </details>
+          <details>
+            <summary>Do you come to me?</summary>
+            <p>Demo answer: replace with the business's real service area and whether a mobile service is offered.</p>
+          </details>
+          <details>
+            <summary>How is paint correction priced?</summary>
+            <p>Paint correction is quoted after the paint has been inspected, because the work depends on the car's condition and size.</p>
+          </details>
+          <details>
+            <summary>Is my booking confirmed when I submit the form?</summary>
+            <p>No. The form prepares a WhatsApp message. A booking is only confirmed when the business replies to you.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>&copy; Apex Detailing &mdash; Demo website, not a real business.</span>
+      <span>Built by Tlangi · Midrand</span>
+    </div>
+  </footer>
+
+  <a class="wa-float" target="_blank" rel="noopener" aria-label="Message on WhatsApp (demo number)" data-wa-float>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+  </a>
+</body>
+</html>
